@@ -1,0 +1,100 @@
+body{
+    background-color: #000000;
+}
+
+.top{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    height: 100px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: wheat;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    border-image: linear-gradient(to right, rgb(99, 238, 99), rgb(0, 255, 0)) 1;
+    border: 10px solid;    
+}
+
+ul{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 5px;
+    gap: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav a:hover{
+    color: rgb(0, 255, 0);
+    transition: 0.0s;
+    font-size: 18px;
+}
+
+nav a{
+    font-size: 18px;
+}
+
+h3{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.box{
+    border-color: cyan;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#k1{
+    color: white;
+    text-align: center;
+    display: flex;
+    padding : 20px;
+    margin: 20px;
+}
