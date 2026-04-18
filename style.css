@@ -1,100 +1,281 @@
-body{
-    background-color: #000000;
+header{
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    border: rgba(5, 231, 163, 0.1) 10px solid;
+    border-radius: 20px;
+    
+}
+
+nav a{
+    padding: 20px;
+    border: rgba(5, 231, 163, 0.1) 2px solid;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+
+    box-shadow: 0 0 8px rgba(5, 231, 163, 0.5);
 }
 
 .top{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    height: 100px;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 20px;
-    color: wheat;
-
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border-image: linear-gradient(to right, rgb(99, 238, 99), rgb(0, 255, 0)) 1;
-    border: 10px solid;    
-}
-
-ul{
-    color: white;
-    text-align: left;
-    margin-left: 20px;
-    padding: 20px;
-    font-family: sans-serif;
-    font-size: 30px;
-}
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 5px;
     gap: 20px;
+}
+
+#m12{
+    padding: 20px;
+    text-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
+    color: white;
+
+}
+
+body{
+    background-color:rgb(5, 69, 88);
+}
+
+.AboutUs{
+    padding: 20px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    border: rgba(245, 97, 12, 0.8) 10px solid;
+    background-color: #333;
+
+}
+
+#a12{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    text-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
+
 }
 
 html{
     scroll-behavior: smooth;
 }
 
-p{
-    color: white;
-    text-align: left;
-    margin-left: 20px;
-    padding: 20px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: sans-serif;
-    text-align: center;
-}
 
 nav a:hover{
-    color: rgb(0, 255, 0);
-    transition: 0.0s;
-    font-size: 18px;
+    background-color: #555;
+    backdrop-filter: blur(5px);
 }
 
-nav a{
-    font-size: 18px;
+.videos{
+    border: rgba(5, 231, 163, 0.5) 10px solid;
+    border-radius: 30px;
 }
 
-h3{
-    color: white;
-    text-align: left;
-    margin-left: 20px;
-    padding: 20px;
+#OurVideos{
     font-family: sans-serif;
-    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
+    margin: 20px;
+    padding: 30px;
 }
 
-.logo img{
-    height: 80px;
-    width: 80px;
-    border-radius: 50px;
+
+#v12{
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
+    margin: 20px;
+    padding: 30px;
+    font-size: 30px;
 }
 
-.box{
-    border-color: cyan;
-    border-width: 5px;
-    border-style: solid;
-    padding: 10px;
+#sayooj{
+    border: rgba(5, 231, 163, 0.5) 5px solid;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+
+}
+
+.videos iframe:hover{
+    border: rgba(5, 231, 163, 0.8) 5px solid;
+    box-shadow: 0 0 15px rgba(5, 231, 163, 0.8);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.videos iframe{
+    border: rgba(5, 231, 163, 0.5) 5px solid;
     border-radius: 20px;
 }
 
-#k1{
+.Home{
+    font-family: sans-serif;
     color: white;
-    text-align: center;
-    display: flex;
-    padding : 20px;
+    text-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
     margin: 20px;
+    padding: 30px;
+    font-size: 30px;
+    border: rgba(5, 231, 163, 0.5) 10px solid;
+    border-radius: 30px;
+
+}
+
+.ContactUs{
+    padding: 20px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    border: rgba(245, 97, 12, 0.8) 10px solid;
+    background-color: #333;
+    margin: 20px;
+}
+
+#Contactbutton{
+    padding: 25px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #aca9a9;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
+    margin: 50px;
+}
+
+#Contactbutton:hover{
+    background-color: #d6d5d5;
+    box-shadow: 0 0 15px rgba(5, 231, 163, 0.8);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#k10{
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
+    margin: 20px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+#lm10{
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 0 0 10px rgba(5, 231, 163, 0.8);
+    margin: 20px;
+    padding: 30px;
+    font-size: 50px;
+}
+
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 900px) {
+    .top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 20px;
+        padding: 12px;
+        margin: 5px;
+    }
+
+    #m12 {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .Home {
+        font-size: 18px;
+        padding: 15px;
+        margin: 10px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .AboutUs {
+        padding: 15px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    #a12 {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .videos {
+        padding: 10px;
+    }
+
+    #v12 {
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #sayooj {
+        width: 100%;
+        height: 250px;
+        margin: 10px 0;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .ContactUs {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #lm10 {
+        font-size: 30px;
+    }
+
+    #k10 {
+        font-size: 16px;
+    }
+
+    #Contactbutton {
+        padding: 15px 20px;
+        margin: 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    nav a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #m12 {
+        font-size: 22px;
+    }
+
+    .Home, .AboutUs, .ContactUs {
+        font-size: 16px;
+    }
 }
